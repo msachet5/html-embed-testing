@@ -20,7 +20,7 @@ function main() {
     // load fbx model and texture                                               
     const objs = [];
     const loader = new THREE.FBXLoader();
-    loader.load("./xsi_man_skinning.fbx", model => {
+    loader.load("https://rawcdn.githack.com/msachet5/html-embed-testing/ce0fc720fe6517f68a9ee423d61039d9676487b3/Hippo.fbx", model => {
         // model is a THREE.Group (THREE.Object3D)                              
         const mixer = new THREE.AnimationMixer(model);
         // animations is a list of THREE.AnimationClip                          
